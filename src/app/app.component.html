@@ -3,9 +3,21 @@
     Welcome to {{title}}!!
   </h1>
   <nav>
-    <a routerLink="home" routerLinkActive="active">Home</a>
+    <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+     <a routerLink="home" routerLinkActive="active">Home</a>
+  </li>
+  <li class="nav-item">
     <a routerLink="about">About</a>
+  </li>
+  <li class="nav-item">
     <a routerLink="dashboard">Dashboard</a>
+  </li>
+</ul>
   </nav>
   <router-outlet></router-outlet>
 </div>
+
